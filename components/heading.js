@@ -12,7 +12,9 @@ const Heading = () => {
     return ( 
         <header style={headerStyle}>
             <h1>Dunn Lester O. Baetiong</h1>
-            <p>4th Year Student</p>
+            <p>21 Years Old</p>
+            <p>Quezon City</p>
+            <p></p>
         </header>
             
         

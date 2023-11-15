@@ -19,10 +19,9 @@ const Career = () => {
       <h2 style={h2Style}>Career Objective</h2>
       <br></br>
       <p>
-        Dedicated and results-driven professional with [X] years of experience in
-        [industry]. Seeking a challenging position as [desired position] at [company],
-        where I can contribute my skills in [key skill 1, key skill 2, etc.] to achieve
-        mutual success.
+        Dedicated and results-driven professional with 4 years of experience in
+        Cisco. Seeking a challenging position as head programmer at Cisco,
+        where I can contribute my skills to achieve mutual success.
       </p>
     </section>
   );
