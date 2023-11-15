@@ -5,7 +5,19 @@ import Heading from "../../components/heading";
 import Skills from "../../components/skills";
 import WorkExperience from "../../components/workexperience";
 
-import React from "react";
+import * as React from 'react'
+
+// 1. import `ChakraProvider` component
+import { ChakraProvider } from '@chakra-ui/react'
+
+function App() {
+  // 2. Wrap ChakraProvider at the root of your app
+  return (
+    <ChakraProvider>
+      <TheRestOfYourApplication />
+    </ChakraProvider>
+  )
+}
 
 
 export default function Home() {
